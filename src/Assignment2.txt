@@ -1,0 +1,23 @@
+1. LinkedLists are better when there are many additions and deletions 
+because elements can be added or removed by changing links between nodes. 
+ArrayLists often require shifting many elements when items are inserted or 
+removed.
+
+2. The internal data structure of an ArrayList is an array.
+
+3. The internal data structure of a LinkedList is a linked list made up of 
+nodes connected by references.
+
+4. The Java Collection Framework classes belong to the java.util package.
+
+5. The equals() method in the Car class gets executed when the contains() 
+method is used on a List containing Car objects.
+
+6. The equals() method in the Boat class may be executed when the remove() 
+method is used to locate a Boat object in a List.
+
+7. The equals() method is originally defined in the Object class 
+(java.lang.Object). The original method compares memory locations to 
+determine if two references point to the same object. We override it so 
+that two objects can be compared using their attribute values instead of 
+their memory addresses.

@@ -1,0 +1,113 @@
+String list empty: false
+
+Monmouth University
+Boardwalk
+West Long Branch
+Great Hall
+1933
+Seven Presidents
+New Jersey
+Invalid vehicle discarded: 
+Invalid vehicle discarded: b,,
+Invalid vehicle discarded: d,FuelOil,100
+Invalid vehicle discarded: c,Gasoline,-98
+Invalid vehicle discarded: c,Gasoline,20o
+Invalid vehicle discarded: c,Gasoline
+Invalid vehicle discarded: b,FuelOil,81902
+
+Vehicle list empty: false
+
+Car [engineSize=4, powerSource=Gasoline]
+Boat [boatLength=100, powerSource=Gasoline]
+Car [engineSize=6, powerSource=FuelOil]
+Boat [boatLength=25, powerSource=FuelOil]
+Car [engineSize=6, powerSource=Diesel]
+Boat [boatLength=300, powerSource=Electricity]
+Boat [boatLength=300, powerSource=FuelOil]
+Car [engineSize=9, powerSource=Gasoline]
+Car [engineSize=10, powerSource=Electricity]
+Car [engineSize=9, powerSource=FuelOil]
+Boat [boatLength=42, powerSource=Electricity]
+Car [engineSize=4, powerSource=Gasoline]
+
+REMOVE STRING AT INDEX 0
+Boardwalk
+West Long Branch
+Great Hall
+1933
+Seven Presidents
+New Jersey
+
+REMOVE VEHICLE AT INDEX 0
+Boat [boatLength=100, powerSource=Gasoline]
+Car [engineSize=6, powerSource=FuelOil]
+Boat [boatLength=25, powerSource=FuelOil]
+Car [engineSize=6, powerSource=Diesel]
+Boat [boatLength=300, powerSource=Electricity]
+Boat [boatLength=300, powerSource=FuelOil]
+Car [engineSize=9, powerSource=Gasoline]
+Car [engineSize=10, powerSource=Electricity]
+Car [engineSize=9, powerSource=FuelOil]
+Boat [boatLength=42, powerSource=Electricity]
+Car [engineSize=4, powerSource=Gasoline]
+
+Contains existing vehicle: true
+Contains missing vehicle: false
+
+Number of Strings in List: 6
+
+String List Forward
+Boardwalk
+West Long Branch
+Great Hall
+1933
+Seven Presidents
+New Jersey
+
+String List Reverse
+New Jersey
+Seven Presidents
+1933
+Great Hall
+West Long Branch
+Boardwalk
+
+Number of Vehicles in List: 11
+
+Vehicle List Forward
+Boat [boatLength=100, powerSource=Gasoline]
+Car [engineSize=6, powerSource=FuelOil]
+Boat [boatLength=25, powerSource=FuelOil]
+Car [engineSize=6, powerSource=Diesel]
+Boat [boatLength=300, powerSource=Electricity]
+Boat [boatLength=300, powerSource=FuelOil]
+Car [engineSize=9, powerSource=Gasoline]
+Car [engineSize=10, powerSource=Electricity]
+Car [engineSize=9, powerSource=FuelOil]
+Boat [boatLength=42, powerSource=Electricity]
+Car [engineSize=4, powerSource=Gasoline]
+
+Vehicle List Reverse
+Car [engineSize=4, powerSource=Gasoline]
+Boat [boatLength=42, powerSource=Electricity]
+Car [engineSize=9, powerSource=FuelOil]
+Car [engineSize=10, powerSource=Electricity]
+Car [engineSize=9, powerSource=Gasoline]
+Boat [boatLength=300, powerSource=FuelOil]
+Boat [boatLength=300, powerSource=Electricity]
+Car [engineSize=6, powerSource=Diesel]
+Boat [boatLength=25, powerSource=FuelOil]
+Car [engineSize=6, powerSource=FuelOil]
+Boat [boatLength=100, powerSource=Gasoline]
+
+Vehicle List After remove(Object)
+Boat [boatLength=100, powerSource=Gasoline]
+Car [engineSize=6, powerSource=FuelOil]
+Boat [boatLength=25, powerSource=FuelOil]
+Car [engineSize=6, powerSource=Diesel]
+Boat [boatLength=300, powerSource=Electricity]
+Boat [boatLength=300, powerSource=FuelOil]
+Car [engineSize=9, powerSource=Gasoline]
+Car [engineSize=10, powerSource=Electricity]
+Car [engineSize=9, powerSource=FuelOil]
+Boat [boatLength=42, powerSource=Electricity]
